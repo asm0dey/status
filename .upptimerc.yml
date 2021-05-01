@@ -1,0 +1,47 @@
+# Change these first
+owner: asm0dey # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
+
+sites:
+  - name: Root
+    url: https://asm0dey.ru
+  - name: Blog
+    url: https://blog.asm0dey.ru
+  - name: it
+    url: https://it.asm0dey.ru
+  - name: newpodcast
+    url: https://newpodcast2.live
+  - name: ort-club
+    url: https://ort-club.ru
+  - name: shortener
+    url: "https://s.asm0dey.ru/rest/v2/health"
+  - name: Nextcloud
+    url: "https://nextcloud.asm0dey.ru"
+  - name: Bot
+    url: "https://bot.asm0dey.ru"
+    expectedStatusCodes: [404]
+
+status-website:
+  # Add your custom domain name, or remove the `cname` line if you don't have a domain
+  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # cname: demo.upptime.js.org
+  baseUrl: /status
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Upptime
+  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  navbar:
+    - title: Status
+      href: /status
+    - title: GitHub
+      href: https://github.com/$OWNER/$REPO
+  theme: dark
+
+assignees:
+  - asm0dey
+
+workflowSchedule:
+  uptime: "0 * * * *"
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration
