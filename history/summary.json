@@ -109,9 +109,9 @@
     "url": "https://ort-club.ru",
     "icon": "https://icons.duckduckgo.com/ip3/ort-club.ru.ico",
     "slug": "ort-club",
-    "status": "up",
+    "status": "down",
     "uptime": "98.77%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.12%",
     "uptimeYear": "98.12%",
@@ -121,6 +121,7 @@
     "timeMonth": 1638,
     "timeYear": 1661,
     "dailyMinutesDown": {
+      "2022-11-17": 0,
       "2022-10-28": 81,
       "2022-10-25": 238,
       "2022-10-17": 67,
@@ -226,7 +227,7 @@
     "timeMonth": 584,
     "timeYear": 570,
     "dailyMinutesDown": {
-      "2022-11-17": 39,
+      "2022-11-17": 494,
       "2022-11-16": 1440,
       "2022-11-15": 1440,
       "2022-11-14": 1440,
