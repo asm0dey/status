@@ -6,7 +6,7 @@
     "slug": "root",
     "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "99.29%",
+    "uptimeDay": "99.27%",
     "uptimeWeek": "99.90%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
@@ -16,7 +16,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-08-28": 10
+      "2026-08-28": 11
     }
   },
   {
